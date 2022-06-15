@@ -1,0 +1,24 @@
+*{
+    background-color: hsl(0,100%,74%);
+    font-family: poppins;
+}
+
+button{
+    background-color: hls(154,59%,51%);
+}
+
+
+
+
+
+
+
+.Register {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
