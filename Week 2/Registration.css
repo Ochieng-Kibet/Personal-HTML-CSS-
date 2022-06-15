@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 .Cont {
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(rgb(202, 167, 167), #a9adbd), url(Background.png);
