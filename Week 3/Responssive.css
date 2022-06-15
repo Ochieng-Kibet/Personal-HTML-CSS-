@@ -1,5 +1,53 @@
-body{
+*{
     margin: 0px;
-    background: #0e0e0e;
-    height: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Cont {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#c4333395, #c3455aa8), url(bg-intro-desktop.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+form {
+    max-width: 400px;
+    width: 90%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.input-box {
+    margin-bottom: 25px;
+    position: relative;
+}
+input {
+    background: transparent;
+    outline: 0px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid rgb(120, 108, 108);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px 0;
+    outline: none;
+    background: rgb(119, 200, 119);
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.Head{
+    width: 100px;
+    max-width: 400px;
+    align-items: center;
+    height: 10px;
 }
