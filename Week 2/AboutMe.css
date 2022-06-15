@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: rgb(126, 163, 163);
+}
+
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+    float: right;
+    padding: 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(37, 61, 61);
+}
+header{
+    background-color: rgb(88, 90, 209);
+    width: auto;
+    height: 80px;
+
+}
+
+#name {
+    font-size: 40px;
+    color: white;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-left: 30px;
+
+}
+img {
+    float: left;
+    width: 300px;
+    height: 260px;
+    padding: 0px;
+}
+main {
+    padding: 10px;
+    width: 80%;
+    margin: 0.5px auto;
+    height: auto;
+    align-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+main h1 {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+main p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Footer{
+    text-decoration: solid;
+    align-items: center;
+    display: flex;
+}
+Button {
+    display: flex;
+    align-content: center;
+    font-size: 15px;
+    font-style: italic;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

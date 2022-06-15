@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    height: 100vh;
+    background-color: rgb(76, 69, 69);
+}
+.Center {
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+}
+.Center h1 {
+    border-bottom: 2px solid sienna;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.Center form {
+    padding: 0 40px;
+    border-inline: border-box;
+}
+.Center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.text-field input {
+    padding: 0 5px;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
