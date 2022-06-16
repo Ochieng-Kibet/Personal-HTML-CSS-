@@ -1,0 +1,39 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 0px;
+    
+}
+body{
+    background: hls(0, 0%, 90%);
+    transition: 300ms;
+    height: 100%;
+}
+main {
+    height: 100vh;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mein {
+    background: rgb(233, 126, 12);
+    height: 400px;
+    width: 300px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.Middle {
+    background: rgb(13, 127, 121);
+    height: 400px;
+    width: 300px;
+}
+.Last {
+    background: darkslategray;
+    height: 400px;
+    width: 300px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
