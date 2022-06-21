@@ -47,5 +47,5 @@
     }
 
     #table-example tr:nth-child(odd):hover {
-      background-color: #ddd;
+   background-color: #ddd;
     }
