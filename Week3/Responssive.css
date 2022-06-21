@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
+
 body{
     background-image: url(bg-intro-desktop.png);
     background-repeat: no-repeat;
@@ -11,19 +13,23 @@ body{
     background-size: cover ;
     background-color:  hsl(0, 100%, 74%) ;
 }
+
 .container{
     margin: 50px;
     display: flex;
 }
+
 .About-class{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .content-about{
     width: 50%;
 }
+
 .reg-form{
     display: flex;
     justify-content: center;
@@ -36,7 +42,6 @@ h1{
     padding: 20px 0;
     word-break: normal;
 }
-
 
 .content-form{
     background-color: white;
@@ -94,28 +99,3 @@ a{
       text-decoration: none;
       font-weight: 600;
 }
-/* @media (max-width: 900px) {
-    body{
-        background-image: url(assets/bg-intro-mobile.png);
-    }
-    .container{
-          flex-direction: column;
-      }
-      .about{
-          padding-top: 0;
-      }
-      .about-content{
-          width: 100%;
-      }
-
-      h1{
-          text-align: center;
-      }
-      .desc{
-          padding-top:25px;
-          padding-bottom: 40px;
-      }
-      .form-width{
-          width: 100%;
-      }
-  } */
