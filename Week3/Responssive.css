@@ -1,67 +1,121 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.Cont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(#c4333395, #c3455aa8), url(bg-intro-desktop.png);
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+    background-size: cover ;
+    background-color:  hsl(0, 100%, 74%) ;
 }
-form {
-    max-width: 500px;
-    width: 100%;
-    background: white;
-    padding: 20px;
-    margin-right: 20px;
-    border-radius: 8px;
-    box-shadow: black;
+.container{
+    margin: 50px;
+    display: flex;
 }
-.input-box {
-    margin-bottom: 25px;
-    position: relative;
+.About-class{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-input {
-    background: transparent;
-    outline: 0px;
-    padding: 10px;
+.content-about{
+    width: 50%;
+}
+.reg-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    border: 2px solid rgb(120, 108, 108);
-    font-size: 15px;
-    border-radius: 10px;
 }
 
-button {
-    color: white;
+h1{
+    font-weight: 700;
+    padding: 20px 0;
+    word-break: normal;
+}
+
+
+.content-form{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
     cursor: pointer;
-    width: 100%;
-    padding: 10px 0;
-    outline: none;
-    background: rgb(83, 155, 83);
-    border: 2px solid #fff;
-    border-radius: 10px;
 }
-.Head{
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    width: 100%;
+    border: none;
+}
+
+.Contentform{
+    margin:20px 0;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    color:hsl(249, 10%, 26%);
+    cursor:pointer;
+}
+
+span{
     color: white;
-    width: 100%;
+    font-weight: 500;
+}
+
+.btn1{
+    background-color: hsl(248, 32%, 49%) ;
+    color: rgba(255, 255, 255, 0.856);
+    padding: 25px;
+}
+
+.btn2{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
     padding: 20px;
-    margin-left: 2%;
-    margin-right: 2%;
-    outline: none;
-    background: rgb(125, 34, 186);
-    border: 2px solid #fff;
-    border-radius: 10px;
-    align-content: center;
-    align-self: center;
+    font-weight: 600;
 }
-div {
-    padding: 10px;
-    margin: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.terms{
+      text-align: center;
+      color: hsl(246, 25%, 77%);
 }
+
+a{
+      color:hsl(0, 100%, 74%) ;
+      text-decoration: none;
+      font-weight: 600;
+}
+/* @media (max-width: 900px) {
+    body{
+        background-image: url(assets/bg-intro-mobile.png);
+    }
+    .container{
+          flex-direction: column;
+      }
+      .about{
+          padding-top: 0;
+      }
+      .about-content{
+          width: 100%;
+      }
+
+      h1{
+          text-align: center;
+      }
+      .desc{
+          padding-top:25px;
+          padding-bottom: 40px;
+      }
+      .form-width{
+          width: 100%;
+      }
+  } */
