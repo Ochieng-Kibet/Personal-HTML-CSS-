@@ -38,7 +38,7 @@ img {
     float: left;
     width: 300px;
     height: 260px;
-    padding: 0px;
+    padding: 20px;
 }
 main {
     padding: 10px;
@@ -64,6 +64,7 @@ main p {
     text-decoration: solid;
     align-items: center;
     display: flex;
+    align-self: center;
 }
 Button {
     display: flex;

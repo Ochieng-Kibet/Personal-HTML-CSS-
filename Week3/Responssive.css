@@ -57,8 +57,10 @@ button {
     background: rgb(125, 34, 186);
     border: 2px solid #fff;
     border-radius: 10px;
+    align-content: center;
+    align-self: center;
 }
-.Para {
+div {
     padding: 10px;
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
