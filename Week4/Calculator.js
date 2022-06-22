@@ -1,6 +1,6 @@
-var opr = prompt("Operator eg +, -, *, /: ")
-var digit1 = parseInt(prompt("First Digit: "))
-var digit2 = parseInt(prompt("Second Digit: "))
+let opr = prompt("Operator eg +, -, *, /: ")
+let digit1 = parseInt(prompt("First Digit: "))
+let digit2 = parseInt(prompt("Second Digit: "))
 
 if (opr == "+"){
     result = digit1 + digit2;
