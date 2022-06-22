@@ -1,5 +1,5 @@
+var opr = prompt("Operator eg +, -, *, /: ")
 var digit1 = parseInt(prompt("First Digit: "))
-var opr = prompt("Operator: ")
 var digit2 = parseInt(prompt("Second Digit: "))
 
 if (opr == "+"){
