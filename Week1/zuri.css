@@ -3,15 +3,18 @@
       color: black;
     }
 
+
     #teacher-name {
       text-align: center;
       color: black;
     }
 
+
     #school-name {
       text-align: center;
       color: black;
     }
+
 
     #table-example {
       border: solid thin;
@@ -23,6 +26,7 @@
       padding: 20px;
     }
 
+
     #table-example th {
       background-color: blue;
       color: white;
@@ -31,6 +35,7 @@
       border: 1px solid #ddd;
     }
 
+
     #table-example td {
       vertical-align: top;
       text-align: center;
@@ -38,14 +43,18 @@
       border: 1px solid #ddd;
     }
 
+
     #table-example tr:nth-child(even) {
       background-color: #f2f2f2;
     }
+
 
     #table-example tr:nth-child(even):hover {
       background-color: #ddd;
     }
 
+
     #table-example tr:nth-child(odd):hover {
    background-color: #ddd;
     }
+
